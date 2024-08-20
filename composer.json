@@ -1,0 +1,28 @@
+{
+    "name": "levizoesch/laravel-list-middleware",
+    "type": "project",
+    "license": "MIT",
+    "description": "A simple command to list your route's middleware.",
+    "keywords": [
+        "Levi Zoesch",
+        "laravel",
+        "laravel commands",
+        "laravel helpers",
+        "Laravel List Middleware"
+    ],
+    "require": {
+        "php": "^8.0|^8.1|^8.2"
+    },
+    "autoload": {
+        "psr-4" : {
+            "levizoesch\\listmiddleware\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "levizoesch\\listmiddleware\\ListMiddlewareServiceProvider"
+            ]
+        }
+    }
+}
