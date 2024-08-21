@@ -1,5 +1,5 @@
 # Laravel List Middleware
-Laravel 11 `php artisan route:list` does not provide a clean/fluid view for middleware details anymore. (Yes You can use `route:list -v` but it does print very friendly. This command will generate a breakdown similar to route:list but for your routes middleware.
+Laravel 11 `php artisan route:list` does not provide a clean/fluid view for middleware details anymore. (Yes You can use `route:list -v` but it doesn't print very friendly). This command will generate a breakdown similar to route:list but for your routes middleware.
 
 
 ## Install
